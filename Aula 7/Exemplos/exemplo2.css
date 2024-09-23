@@ -1,0 +1,15 @@
+/* Estilizando o título */
+.title {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  /* Estilizando o parágrafo */
+  #intro {
+    color: green;
+    font-size: 18px;
+    margin: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
