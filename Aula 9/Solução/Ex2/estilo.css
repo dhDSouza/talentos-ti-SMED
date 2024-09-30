@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.gallery img {
+    flex: 1 1 200px; /* Cresce, encolhe e tem uma base de 200px */
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
